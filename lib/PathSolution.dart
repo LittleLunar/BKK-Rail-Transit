@@ -22,7 +22,7 @@ class PathSolution {
 
       path.add(destination.name);
       success[path] = totalcost + (cur.getAdjacency[destination] as int);
-      // print(success);
+
       return;
     }
 

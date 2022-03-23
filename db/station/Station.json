@@ -1,0 +1,58 @@
+{
+  "BTS":{
+    "Khu Khot":{
+      "lineNumber":1,
+      "adjacencies":[
+        "Yaek Kor Por Aor"
+      ]
+    },
+    "Yaek Kor Por Aor":{
+      "lineNumber":1,
+      "adjacencies":[
+        "Khu Khot",
+        "Royal Thai Air Force Museum"
+      ]
+    },
+    "Royal Thai Air Force Museum": {
+      "lineNumber":1,
+      "adjacencies":[
+        "Yaek Kor Por Aor",
+        "Bhumibol Adulyadej Hospital"
+      ]
+    },
+    "Bhumibol Adulyadej Hospital": {
+      "lineNumber":1,
+      "adjacencies":[
+        "Royal Thai Air Force Museum",
+        "Saphan Hai"
+      ]
+    },
+    "Saphan Hai":{
+      "lineNumber":1,
+      "adjacencies":[
+        "Bhumibol Adulyadej Hospital",
+        "Sai Yod"
+      ]
+    },
+    "Sai Yod": {
+      "lineNumber":1,
+      "adjacencies":[
+        "Saphan Hai",
+        "Pahon Yothin 59"
+      ]
+    },
+    "Pahon Yothin 59":{
+      "lineNumber":1,
+      "adjacencies":[
+        "Sai Yod",
+        "Wat Phra Sri Mahathat"
+      ]
+    },
+    "Wat Phra Sri Mahathat":{
+      "lineNumber":1,
+      "adjacencies":[
+        "Pa"
+      ]
+    }
+  }
+}
