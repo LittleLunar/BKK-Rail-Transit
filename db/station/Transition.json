@@ -1,0 +1,6 @@
+{
+  "MoChit":["Chatuchak"],
+  "Chatuchak":["MoChit"],
+  "Lat Phrao":["Phahon Yothin"],
+  "Phahon Yothin":["Lat Phrao"]
+}
