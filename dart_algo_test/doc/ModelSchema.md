@@ -39,8 +39,8 @@
 
 ```
 {
-  "STATION_ID_1": string,
-  "STATION_ID_2": string
+  "STATION_ID": string,
+  "ADJACENCY_ID": string
 }
 ```
 
@@ -50,7 +50,6 @@
 {
   "STATION_ID_SRC": string,
   "STATION_ID_DEST": string,
-  "STATION_LINENUMBER": string,
   "PRICE": int,
   "DURATION": int
 }
