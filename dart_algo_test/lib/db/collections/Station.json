@@ -1,0 +1,18 @@
+[
+  {
+    "ID": "1",
+    "NAME": "A",
+    "LINE_NUMBER": 1,
+    "DETAIL": "stationA detail",
+    "LAT": 1,
+    "LONG": 1
+  },
+  {
+    "ID": "2",
+    "NAME": "B",
+    "LINE_NUMBER": 2,
+    "DETAIL": "stationB detail",
+    "LAT": 2,
+    "LONG": 2
+  }
+]
