@@ -2,5 +2,93 @@
   {
     "STATION_ID": "1",
     "ADJACENCY_ID": "2"
+  },
+  {
+    "STATION_ID": "2",
+    "ADJACENCY_ID": "1"
+  },
+  {
+    "STATION_ID": "2",
+    "ADJACENCY_ID": "3"
+  },
+  {
+    "STATION_ID": "3",
+    "ADJACENCY_ID": "2"
+  },
+  {
+    "STATION_ID": "3",
+    "ADJACENCY_ID": "4"
+  },
+  {
+    "STATION_ID": "4",
+    "ADJACENCY_ID": "3"
+  },
+  {
+    "STATION_ID": "4",
+    "ADJACENCY_ID": "5"
+  },
+  {
+    "STATION_ID": "5",
+    "ADJACENCY_ID": "4"
+  },
+  {
+    "STATION_ID": "5",
+    "ADJACENCY_ID": "7"
+  },
+  {
+    "STATION_ID": "6",
+    "ADJACENCY_ID": "3"
+  },
+  {
+    "STATION_ID": "6",
+    "ADJACENCY_ID": "9"
+  },
+  {
+    "STATION_ID": "7",
+    "ADJACENCY_ID": "5"
+  },
+  {
+    "STATION_ID": "7",
+    "ADJACENCY_ID": "8"
+  },
+  {
+    "STATION_ID": "7",
+    "ADJACENCY_ID": "8"
+  },
+  {
+    "STATION_ID": "7",
+    "ADJACENCY_ID": "10"
+  },
+  {
+    "STATION_ID": "8",
+    "ADJACENCY_ID": "7"
+  },
+  {
+    "STATION_ID": "9",
+    "ADJACENCY_ID": "6"
+  },
+  {
+    "STATION_ID": "9",
+    "ADJACENCY_ID": "10"
+  },
+  {
+    "STATION_ID": "10",
+    "ADJACENCY_ID": "9"
+  },
+  {
+    "STATION_ID": "10",
+    "ADJACENCY_ID": "7"
+  },
+  {
+    "STATION_ID": "3",
+    "ADJACENCY_ID": "6"
+  },
+  {
+    "STATION_ID": "9",
+    "ADJACENCY_ID": "4"
+  },
+  {
+    "STATION_ID": "4",
+    "ADJACENCY_ID": "9"
   }
 ]

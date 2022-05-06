@@ -10,8 +10,72 @@
   {
     "ID": "2",
     "NAME": "B",
-    "LINE_NUMBER": 2,
+    "LINE_NUMBER": 1,
     "DETAIL": "stationB detail",
+    "LAT": 2,
+    "LONG": 2
+  },
+  {
+    "ID": "3",
+    "NAME": "C",
+    "LINE_NUMBER": 1,
+    "DETAIL": "stationC detail",
+    "LAT": 1,
+    "LONG": 1
+  },
+  {
+    "ID": "4",
+    "NAME": "D",
+    "LINE_NUMBER": 1,
+    "DETAIL": "stationD detail",
+    "LAT": 2,
+    "LONG": 2
+  },
+  {
+    "ID": "5",
+    "NAME": "E",
+    "LINE_NUMBER": 1,
+    "DETAIL": "stationE detail",
+    "LAT": 1,
+    "LONG": 1
+  },
+  {
+    "ID": "6",
+    "NAME": "F",
+    "LINE_NUMBER": 2,
+    "DETAIL": "stationF detail",
+    "LAT": 2,
+    "LONG": 2
+  },
+  {
+    "ID": "7",
+    "NAME": "G",
+    "LINE_NUMBER": 2,
+    "DETAIL": "stationG detail",
+    "LAT": 1,
+    "LONG": 1
+  },
+  {
+    "ID": "8",
+    "NAME": "H",
+    "LINE_NUMBER": 2,
+    "DETAIL": "stationH detail",
+    "LAT": 2,
+    "LONG": 2
+  },
+  {
+    "ID": "9",
+    "NAME": "I",
+    "LINE_NUMBER": 2,
+    "DETAIL": "stationI detail",
+    "LAT": 1,
+    "LONG": 1
+  },
+  {
+    "ID": "10",
+    "NAME": "J",
+    "LINE_NUMBER": 2,
+    "DETAIL": "stationJ detail",
     "LAT": 2,
     "LONG": 2
   }

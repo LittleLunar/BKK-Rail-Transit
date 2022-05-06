@@ -1,26 +1,36 @@
+import "package:collection/collection.dart";
 import 'package:dart_algo/src/services/DBService.dart';
+import 'package:dart_algo/src/models/schema/Station.dart';
 
 class StationService {
   static final List<dynamic> _stationCollection =
       DBService.getStationCollection;
 
-  static List<dynamic> getStations() {
-    return _stationCollection;
+  static List<Station> getStations() {
+    return _parseList(_stationCollection);
   }
 
-  static Map<String, dynamic> getStationById({required String id}) {
-    return _stationCollection.firstWhere((element) => element["ID"] == id);
+  static Station getStationById({required String id}) {
+    return _parse(
+        _stationCollection.firstWhereOrNull((element) => element["ID"] == id));
   }
 
-  static List<dynamic> getStationByLine({required int lineNumber}) {
-    return _stationCollection
-        .where((element) => element["LINE_NUMBER"] == lineNumber)
-        .toList();
+  static List<Station> getStationByLine({required int lineNumber}) {
+    return _parseList(_stationCollection
+        .where((element) => element["LINE_NUMBER"] == lineNumber));
   }
 
-  static Map<String, dynamic> getStationByNameAndLine(
+  static Station getStationByNameAndLine(
       {required String name, required String lineNumber}) {
-    return _stationCollection.firstWhere((element) =>
-        element["NAME"] == name && element["LINE_NUMBER"] == lineNumber);
+    return _parse(_stationCollection.firstWhereOrNull((element) =>
+        element["NAME"] == name && element["LINE_NUMBER"] == lineNumber));
+  }
+
+  static Station _parse(Map<String, dynamic> json) {
+    return Station.fromJson(json);
+  }
+
+  static List<Station> _parseList(Iterable<dynamic> jsonArray) {
+    return jsonArray.map((json) => Station.fromJson(json)).toList();
   }
 }

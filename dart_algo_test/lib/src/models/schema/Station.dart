@@ -1,12 +1,3 @@
-import 'dart:io';
-import 'dart:convert';
-
-/*
-{
-  "a":20,
-  "b":30
-}
-*/
 class Station {
   String id;
   String name;
@@ -40,4 +31,9 @@ class Station {
         "LAT": lat,
         "LONG": long
       };
+
+  @override
+  String toString() {
+    return name;
+  }
 }

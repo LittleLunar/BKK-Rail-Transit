@@ -1,7 +1,25 @@
 [
   {
     "STATION_ID_SRC": "1",
-    "STATION_ID_DEST": "1",
+    "STATION_ID_DEST": "2",
+    "PRICE": 17,
+    "DURATION": 300
+  },
+  {
+    "STATION_ID_SRC": "1",
+    "STATION_ID_DEST": "3",
+    "PRICE": 17,
+    "DURATION": 300
+  },
+  {
+    "STATION_ID_SRC": "1",
+    "STATION_ID_DEST": "4",
+    "PRICE": 17,
+    "DURATION": 300
+  },
+  {
+    "STATION_ID_SRC": "1",
+    "STATION_ID_DEST": "5",
     "PRICE": 17,
     "DURATION": 300
   }
