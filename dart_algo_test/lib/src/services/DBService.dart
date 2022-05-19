@@ -3,7 +3,7 @@ import "dart:convert";
 
 class DBService {
   static List<dynamic>? _stationCollection;
-  static List<dynamic>? _attractionCollection;
+  // static List<dynamic>? _attractionCollection;
   static List<dynamic>? _gateCollection;
   static List<dynamic>? _adjacencyCollection;
   static List<dynamic>? _costCollection;
@@ -22,8 +22,8 @@ class DBService {
     _stationCollection =
         jsonDecode(File(DBJsonFile.jsonStation).readAsStringSync());
 
-    _attractionCollection =
-        jsonDecode(File(DBJsonFile.jsonAttraction).readAsStringSync());
+    // _attractionCollection =
+    //     jsonDecode(File(DBJsonFile.jsonAttraction).readAsStringSync());
 
     _gateCollection = jsonDecode(File(DBJsonFile.jsonGate).readAsStringSync());
 
@@ -37,9 +37,9 @@ class DBService {
     return _stationCollection!;
   }
 
-  static List<dynamic> get getAttractionCollection {
-    return _attractionCollection!;
-  }
+  // static List<dynamic> get getAttractionCollection {
+  //   return _attractionCollection!;
+  // }
 
   static List<dynamic> get getGateCollection {
     return _gateCollection!;
@@ -56,7 +56,7 @@ class DBService {
 
 class DBJsonFile {
   static final jsonStation = "./lib/db/collections/Station.json";
-  static final jsonAttraction = "./lib/db/collections/Attraction.json";
+  // static final jsonAttraction = "./lib/db/collections/Attraction.json";
   static final jsonGate = "./lib/db/collections/Gate.json";
   static final jsonAdjacency = "./lib/db/collections/Adjacency.json";
   static final jsonCost = "./lib/db/collections/Cost.json";

@@ -1,2 +1,2 @@
 // ignore: file_names
-enum SearchAlgorithm { dfs, agentDFS , other }
+enum SearchAlgorithm { bfs, dfs, other }

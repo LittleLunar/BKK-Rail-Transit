@@ -1,21 +1,8 @@
-import 'dart:io';
-import 'package:collection/collection.dart';
-import 'package:dart_algo/src/models/schema/Cost.dart';
-import 'package:dart_algo/src/services/CostService.dart';
 import 'package:dart_algo/src/utils/SearchAlgorithm/SearchAlgorithm.dart';
 import 'package:dart_algo/src/utils/SearchAlgorithm/DFS.dart';
 import 'package:dart_algo/src/models/schema/Station.dart';
-import 'package:dart_algo/src/models/schema/Adjacency.dart';
-import 'package:dart_algo/src/services/StationService.dart';
-import 'package:dart_algo/src/services/AdjacencyService.dart';
-import 'package:dart_algo/src/utils/StationUtils.dart';
 
 class RoutePlanningController {
-  static final List<Station> _stationContainer = StationService.getStations();
-  static final List<Adjacency> _adjacencyContainer =
-      AdjacencyService.getAdjacencies();
-  static final List<Cost> _costContainer = CostService.getCosts();
-
   static Map<String, dynamic> compareAlgo(
       {required Station src,
       required Station dest,
@@ -31,7 +18,8 @@ class RoutePlanningController {
       {required Station src,
       required Station dest,
       SearchAlgorithm algo = SearchAlgorithm.dfs}) {
-    Map<String, dynamic> success = {};
+    // Map<String, dynamic> success = {};
+    List<dynamic> success = [];
 
     final stopwatch = Stopwatch()..start();
 
@@ -39,10 +27,7 @@ class RoutePlanningController {
       DFS.traverse(cur: src, dest: dest, success: success);
     }
 
-    if (algo == SearchAlgorithm.agentDFS) {}
-
     final elapsedTime = stopwatch.elapsed;
-
     return <String, dynamic>{
       "timeused": elapsedTime.toString(),
       "possiblePath": success

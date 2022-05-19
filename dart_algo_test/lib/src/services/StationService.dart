@@ -21,7 +21,7 @@ class StationService {
   }
 
   static Station getStationByNameAndLine(
-      {required String name, required String lineNumber}) {
+      {required String name, required int lineNumber}) {
     return _parse(_stationCollection.firstWhereOrNull((element) =>
         element["NAME"] == name && element["LINE_NUMBER"] == lineNumber));
   }

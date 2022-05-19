@@ -14,6 +14,8 @@ class AdjacencyService {
         _adjacencyCollection.where((element) => element["STATION_ID"] == id));
   }
 
+  
+
   static List<Adjacency> _parseList(Iterable<dynamic> jsonArray) {
     return jsonArray.map((json) => Adjacency.fromJson(json)).toList();
   }

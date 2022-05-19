@@ -1,94 +1,64 @@
 [
-  {
-    "STATION_ID": "1",
-    "ADJACENCY_ID": "2"
-  },
-  {
-    "STATION_ID": "2",
-    "ADJACENCY_ID": "1"
-  },
-  {
-    "STATION_ID": "2",
-    "ADJACENCY_ID": "3"
-  },
-  {
-    "STATION_ID": "3",
-    "ADJACENCY_ID": "2"
-  },
-  {
-    "STATION_ID": "3",
-    "ADJACENCY_ID": "4"
-  },
-  {
-    "STATION_ID": "4",
-    "ADJACENCY_ID": "3"
-  },
-  {
-    "STATION_ID": "4",
-    "ADJACENCY_ID": "5"
-  },
-  {
-    "STATION_ID": "5",
-    "ADJACENCY_ID": "4"
-  },
-  {
-    "STATION_ID": "5",
-    "ADJACENCY_ID": "7"
-  },
-  {
-    "STATION_ID": "6",
-    "ADJACENCY_ID": "3"
-  },
-  {
-    "STATION_ID": "6",
-    "ADJACENCY_ID": "9"
-  },
-  {
-    "STATION_ID": "7",
-    "ADJACENCY_ID": "5"
-  },
-  {
-    "STATION_ID": "7",
-    "ADJACENCY_ID": "8"
-  },
-  {
-    "STATION_ID": "7",
-    "ADJACENCY_ID": "8"
-  },
-  {
-    "STATION_ID": "7",
-    "ADJACENCY_ID": "10"
-  },
-  {
-    "STATION_ID": "8",
-    "ADJACENCY_ID": "7"
-  },
-  {
-    "STATION_ID": "9",
-    "ADJACENCY_ID": "6"
-  },
-  {
-    "STATION_ID": "9",
-    "ADJACENCY_ID": "10"
-  },
-  {
-    "STATION_ID": "10",
-    "ADJACENCY_ID": "9"
-  },
-  {
-    "STATION_ID": "10",
-    "ADJACENCY_ID": "7"
-  },
-  {
-    "STATION_ID": "3",
-    "ADJACENCY_ID": "6"
-  },
-  {
-    "STATION_ID": "9",
-    "ADJACENCY_ID": "4"
-  },
-  {
-    "STATION_ID": "4",
-    "ADJACENCY_ID": "9"
-  }
+  { "STATION_ID": "1", "ADJACENCY_ID": "2" },
+  { "STATION_ID": "2", "ADJACENCY_ID": "1" },
+  { "STATION_ID": "2", "ADJACENCY_ID": "3" },
+  { "STATION_ID": "3", "ADJACENCY_ID": "2" },
+  { "STATION_ID": "3", "ADJACENCY_ID": "4" },
+  { "STATION_ID": "4", "ADJACENCY_ID": "3" },
+  { "STATION_ID": "4", "ADJACENCY_ID": "5" },
+  { "STATION_ID": "5", "ADJACENCY_ID": "4" },
+  { "STATION_ID": "5", "ADJACENCY_ID": "6" },
+  { "STATION_ID": "6", "ADJACENCY_ID": "5" },
+  { "STATION_ID": "6", "ADJACENCY_ID": "7" },
+  { "STATION_ID": "7", "ADJACENCY_ID": "6" },
+  { "STATION_ID": "7", "ADJACENCY_ID": "8" },
+  { "STATION_ID": "8", "ADJACENCY_ID": "7" },
+  { "STATION_ID": "8", "ADJACENCY_ID": "24" },
+  { "STATION_ID": "24", "ADJACENCY_ID": "8" },
+  { "STATION_ID": "9", "ADJACENCY_ID": "10" },
+  { "STATION_ID": "10", "ADJACENCY_ID": "9" },
+  { "STATION_ID": "9", "ADJACENCY_ID": "18" },
+  { "STATION_ID": "18", "ADJACENCY_ID": "9" },
+  { "STATION_ID": "10", "ADJACENCY_ID": "11" },
+  { "STATION_ID": "11", "ADJACENCY_ID": "10" },
+  { "STATION_ID": "10", "ADJACENCY_ID": "6" },
+  { "STATION_ID": "6", "ADJACENCY_ID": "10" },
+  { "STATION_ID": "11", "ADJACENCY_ID": "12" },
+  { "STATION_ID": "12", "ADJACENCY_ID": "11" },
+  { "STATION_ID": "12", "ADJACENCY_ID": "13" },
+  { "STATION_ID": "13", "ADJACENCY_ID": "12" },
+  { "STATION_ID": "13", "ADJACENCY_ID": "14" },
+  { "STATION_ID": "14", "ADJACENCY_ID": "13" },
+  { "STATION_ID": "14", "ADJACENCY_ID": "15" },
+  { "STATION_ID": "15", "ADJACENCY_ID": "14" },
+  { "STATION_ID": "15", "ADJACENCY_ID": "16" },
+  { "STATION_ID": "16", "ADJACENCY_ID": "15" },
+  { "STATION_ID": "16", "ADJACENCY_ID": "17" },
+  { "STATION_ID": "17", "ADJACENCY_ID": "16" },
+  { "STATION_ID": "17", "ADJACENCY_ID": "30" },
+  { "STATION_ID": "30", "ADJACENCY_ID": "17" },
+  { "STATION_ID": "18", "ADJACENCY_ID": "19" },
+  { "STATION_ID": "19", "ADJACENCY_ID": "18" },
+  { "STATION_ID": "19", "ADJACENCY_ID": "20" },
+  { "STATION_ID": "20", "ADJACENCY_ID": "19" },
+  { "STATION_ID": "20", "ADJACENCY_ID": "21" },
+  { "STATION_ID": "21", "ADJACENCY_ID": "20" },
+  { "STATION_ID": "21", "ADJACENCY_ID": "22" },
+  { "STATION_ID": "22", "ADJACENCY_ID": "21" },
+  { "STATION_ID": "22", "ADJACENCY_ID": "23" },
+  { "STATION_ID": "23", "ADJACENCY_ID": "22" },
+  { "STATION_ID": "23", "ADJACENCY_ID": "24" },
+  { "STATION_ID": "24", "ADJACENCY_ID": "23" },
+  { "STATION_ID": "24", "ADJACENCY_ID": "25" },
+  { "STATION_ID": "25", "ADJACENCY_ID": "24" },
+  { "STATION_ID": "25", "ADJACENCY_ID": "26" },
+  { "STATION_ID": "26", "ADJACENCY_ID": "25" },
+  { "STATION_ID": "26", "ADJACENCY_ID": "27" },
+  { "STATION_ID": "27", "ADJACENCY_ID": "26" },
+  { "STATION_ID": "27", "ADJACENCY_ID": "28" },
+  { "STATION_ID": "28", "ADJACENCY_ID": "27" },
+  { "STATION_ID": "28", "ADJACENCY_ID": "29" },
+  { "STATION_ID": "29", "ADJACENCY_ID": "28" },
+  { "STATION_ID": "29", "ADJACENCY_ID": "30" },
+  { "STATION_ID": "30", "ADJACENCY_ID": "29" }
 ]
