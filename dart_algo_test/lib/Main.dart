@@ -27,12 +27,22 @@ class System {
         src: a,
         dest: b,
         algo1: SearchAlgorithm.dfs,
-        algo2: SearchAlgorithm.other);
+        algo2: SearchAlgorithm.bfs);
 
-    print("\nSrc: $a To Dest: $b\n");
-    List<dynamic> possiblePath = result["SearchAlgorithm.dfs"]["possiblePath"];
-    for (int i = 0; i < possiblePath.length; i++) {
-      print("${i + 1}: ${possiblePath[i]["path"]}");
+    List<dynamic> z = result["SearchAlgorithm.dfs"]["possiblePath"];
+
+    print("\nDepth-First Search\n");
+    print("Src: $a To Dest: $b\n");
+    for (int i = 0; i < z.length; i++) {
+      print("${i + 1}: ${z[i]["path"]}\n");
+    }
+
+    List<dynamic> x = result["SearchAlgorithm.bfs"]["possiblePath"];
+
+    print("\nBreadth-First Search\n");
+    print("Src: $a To Dest: $b\n");
+    for (int i = 0; i < x.length; i++) {
+      print("${i + 1}: ${x[i]["path"]}\n");
     }
     // Mock.mockAdjacency();
   }

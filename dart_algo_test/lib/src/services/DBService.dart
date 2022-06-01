@@ -16,7 +16,7 @@ class DBService {
 
   DBService._singleton() {
     // Connecting to database
-    print("Connecting with Database");
+    // print("Connecting with Database");
 
     // get the collections of database
     _stationCollection =
